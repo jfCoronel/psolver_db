@@ -1,0 +1,38 @@
+{
+  "app": {
+    "title": "pSolver DB",
+    "selectLanguage": "Select language"
+  },
+  "table": {
+    "name": "Name",
+    "date": "Date",
+    "author": "Author",
+    "subject": "Subject",
+    "category": "Category",
+    "comment": "Comment",
+    "noProblems": "No problems available",
+    "noResults": "No results found"
+  },
+  "filters": {
+    "title": "Filters",
+    "clear": "Clear filters",
+    "name": "Name",
+    "namePlaceholder": "Search by name...",
+    "author": "Author",
+    "authorPlaceholder": "Search by author...",
+    "subject": "Subject",
+    "subjectPlaceholder": "Search by subject...",
+    "category": "Category",
+    "categoryPlaceholder": "Search by category..."
+  },
+  "detail": {
+    "title": "Problem Details",
+    "id": "ID",
+    "name": "Name",
+    "date": "Date",
+    "author": "Author",
+    "subject": "Subject",
+    "category": "Category",
+    "comment": "Comment"
+  }
+}

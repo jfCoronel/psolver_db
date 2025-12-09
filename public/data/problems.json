@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Problema de Ecuaciones Lineales",
+    "date": "2025-01-15",
+    "author": "María García",
+    "subject": "Matemáticas",
+    "category": "Álgebra",
+    "comment": "Sistema de ecuaciones de 3x3"
+  },
+  {
+    "id": 2,
+    "name": "Análisis de Movimiento Parabólico",
+    "date": "2025-02-20",
+    "author": "Juan Pérez",
+    "subject": "Física",
+    "category": "Cinemática",
+    "comment": "Incluye fricción del aire"
+  },
+  {
+    "id": 3,
+    "name": "Síntesis de Compuestos Orgánicos",
+    "date": "2025-03-10",
+    "author": "Ana Martínez",
+    "subject": "Química",
+    "category": "Química Orgánica",
+    "comment": "Reacción de sustitución"
+  },
+  {
+    "id": 4,
+    "name": "Derivadas Parciales",
+    "date": "2025-01-28",
+    "author": "Carlos López",
+    "subject": "Matemáticas",
+    "category": "Cálculo",
+    "comment": "Funciones de varias variables"
+  },
+  {
+    "id": 5,
+    "name": "Circuitos en Serie y Paralelo",
+    "date": "2025-02-05",
+    "author": "Laura Sánchez",
+    "subject": "Física",
+    "category": "Electricidad",
+    "comment": "Análisis con Ley de Ohm"
+  },
+  {
+    "id": 6,
+    "name": "Equilibrio Químico",
+    "date": "2025-03-22",
+    "author": "Miguel Torres",
+    "subject": "Química",
+    "category": "Termodinámica",
+    "comment": "Principio de Le Chatelier"
+  },
+  {
+    "id": 7,
+    "name": "Integrales Dobles",
+    "date": "2025-02-14",
+    "author": "Isabel Ruiz",
+    "subject": "Matemáticas",
+    "category": "Cálculo",
+    "comment": "Cambio a coordenadas polares"
+  },
+  {
+    "id": 8,
+    "name": "Ondas Electromagnéticas",
+    "date": "2025-03-05",
+    "author": "Roberto Díaz",
+    "subject": "Física",
+    "category": "Electromagnetismo",
+    "comment": "Ecuaciones de Maxwell"
+  }
+]
