@@ -30,7 +30,7 @@ const useStore = create((set) => ({
 
   loadProblems: async () => {
     try {
-      const response = await fetch(`${import.meta.env.BASE_URL}data/problems.json`)
+      const response = await fetch('./data/problems.json')
       const data = await response.json()
       set({ problems: data })
     } catch (error) {
@@ -40,7 +40,7 @@ const useStore = create((set) => ({
 
   loadTranslations: async (lang) => {
     try {
-      const response = await fetch(`${import.meta.env.BASE_URL}locales/${lang}.json`)
+      const response = await fetch(`./locales/${lang}.json`)
       const data = await response.json()
       set({ translations: data, language: lang })
     } catch (error) {
