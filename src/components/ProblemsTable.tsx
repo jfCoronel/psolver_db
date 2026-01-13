@@ -44,12 +44,23 @@ const ProblemsTable = () => {
 
   const filteredAndSortedProblems = useMemo(() => {
     let filtered = problems.filter((problem) => {
-      return (
-        problem.name.toLowerCase().includes(filters.name.toLowerCase()) &&
-        problem.author.toLowerCase().includes(filters.author.toLowerCase()) &&
-        problem.subject.toLowerCase().includes(filters.subject.toLowerCase()) &&
-        problem.category.toLowerCase().includes(filters.category.toLowerCase())
-      )
+      // Aplicar filtro 1
+      const filter1Match =
+        !filters.filter1.column ||
+        !filters.filter1.value ||
+        String(problem[filters.filter1.column])
+          .toLowerCase()
+          .includes(filters.filter1.value.toLowerCase())
+
+      // Aplicar filtro 2
+      const filter2Match =
+        !filters.filter2.column ||
+        !filters.filter2.value ||
+        String(problem[filters.filter2.column])
+          .toLowerCase()
+          .includes(filters.filter2.value.toLowerCase())
+
+      return filter1Match && filter2Match
     })
 
     if (sortConfig.key) {

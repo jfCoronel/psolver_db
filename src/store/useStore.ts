@@ -6,10 +6,8 @@ const useStore = create<Store>((set) => ({
   language: 'es',
   translations: {},
   filters: {
-    name: '',
-    author: '',
-    subject: '',
-    category: '',
+    filter1: { column: '', value: '' },
+    filter2: { column: '', value: '' },
   },
   sortConfig: {
     key: null,

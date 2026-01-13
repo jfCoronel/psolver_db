@@ -16,14 +16,19 @@
   "filters": {
     "title": "Filtros",
     "clear": "Limpiar filtros",
-    "name": "Nombre",
-    "namePlaceholder": "Buscar por nombre...",
-    "author": "Autor",
-    "authorPlaceholder": "Buscar por autor...",
-    "subject": "Materia",
-    "subjectPlaceholder": "Buscar por materia...",
-    "category": "Categoría",
-    "categoryPlaceholder": "Buscar por categoría..."
+    "filter": "Filtro",
+    "column": "Columna",
+    "value": "Valor",
+    "selectColumn": "Seleccionar columna...",
+    "valuePlaceholder": "Buscar...",
+    "columns": {
+      "name": "Nombre",
+      "date": "Fecha",
+      "author": "Autor",
+      "subject": "Materia",
+      "category": "Categoría",
+      "comment": "Comentario"
+    }
   },
   "detail": {
     "title": "Detalles del Problema",

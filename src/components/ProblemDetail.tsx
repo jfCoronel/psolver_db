@@ -21,7 +21,7 @@ const ProblemDetail = ({ problem }: ProblemDetailProps) => {
   return (
     <div className="bg-slate-50 dark:bg-slate-900 border-t border-b border-slate-200 dark:border-slate-700">
       <div className="p-6">
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-start mb-6">
           <h3 className="text-lg font-bold text-slate-900 dark:text-slate-50">
             {t.title || 'Detalles del Problema'}
           </h3>
@@ -34,68 +34,84 @@ const ProblemDetail = ({ problem }: ProblemDetailProps) => {
           </Button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div>
-            <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">
-              {t.id || 'ID'}
-            </label>
-            <div className="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-slate-100">
-              {problem.id}
+        <div className="space-y-4">
+          {/* Sección de información principal en una línea compacta */}
+          <div className="flex flex-wrap gap-x-6 gap-y-3 text-sm">
+            <div className="flex items-baseline gap-2">
+              <span className="font-semibold text-slate-700 dark:text-slate-300">
+                {t.id || 'ID'}:
+              </span>
+              <span className="text-slate-900 dark:text-slate-100">
+                {problem.id}
+              </span>
+            </div>
+
+            <div className="flex items-baseline gap-2">
+              <span className="font-semibold text-slate-700 dark:text-slate-300">
+                {t.date || 'Fecha'}:
+              </span>
+              <span className="text-slate-900 dark:text-slate-100">
+                {problem.date}
+              </span>
+            </div>
+
+            <div className="flex items-baseline gap-2">
+              <span className="font-semibold text-slate-700 dark:text-slate-300">
+                {t.author || 'Autor'}:
+              </span>
+              <span className="text-slate-900 dark:text-slate-100">
+                {problem.author}
+              </span>
             </div>
           </div>
 
-          <div>
-            <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">
-              {t.name || 'Nombre'}
-            </label>
-            <div className="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-slate-100">
-              {problem.name}
-            </div>
-          </div>
+          {/* Separador visual */}
+          <div className="border-t border-slate-200 dark:border-slate-700"></div>
 
-          <div>
-            <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">
-              {t.date || 'Fecha'}
-            </label>
-            <div className="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-slate-100">
-              {problem.date}
+          {/* Información adicional */}
+          <div className="space-y-3">
+            <div>
+              <span className="font-semibold text-slate-700 dark:text-slate-300 text-sm">
+                {t.name || 'Nombre'}:
+              </span>
+              <p className="text-slate-900 dark:text-slate-100 mt-1">
+                {problem.name}
+              </p>
             </div>
-          </div>
 
-          <div>
-            <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">
-              {t.author || 'Autor'}
-            </label>
-            <div className="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-slate-100">
-              {problem.author}
-            </div>
-          </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <div>
+                <span className="font-semibold text-slate-700 dark:text-slate-300 text-sm">
+                  {t.subject || 'Materia'}:
+                </span>
+                <p className="text-slate-900 dark:text-slate-100 mt-1">
+                  {problem.subject}
+                </p>
+              </div>
 
-          <div>
-            <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">
-              {t.subject || 'Materia'}
-            </label>
-            <div className="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-slate-100">
-              {problem.subject}
+              <div>
+                <span className="font-semibold text-slate-700 dark:text-slate-300 text-sm">
+                  {t.category || 'Categoría'}:
+                </span>
+                <p className="text-slate-900 dark:text-slate-100 mt-1">
+                  {problem.category}
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div>
-            <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">
-              {t.category || 'Categoría'}
-            </label>
-            <div className="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-slate-100">
-              {problem.category}
-            </div>
-          </div>
-
-          <div className="md:col-span-2 lg:col-span-3">
-            <label className="block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">
-              {t.comment || 'Comentario'}
-            </label>
-            <div className="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-sm text-slate-900 dark:text-slate-100">
-              {problem.comment}
-            </div>
+            {problem.comment && (
+              <>
+                <div className="border-t border-slate-200 dark:border-slate-700 pt-3"></div>
+                <div>
+                  <span className="font-semibold text-slate-700 dark:text-slate-300 text-sm">
+                    {t.comment || 'Comentario'}:
+                  </span>
+                  <p className="text-slate-900 dark:text-slate-100 mt-1 whitespace-pre-wrap">
+                    {problem.comment}
+                  </p>
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>

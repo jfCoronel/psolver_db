@@ -8,11 +8,14 @@ export interface Problem {
   comment: string
 }
 
+export interface FilterItem {
+  column: keyof Problem | ''
+  value: string
+}
+
 export interface Filters {
-  name: string
-  author: string
-  subject: string
-  category: string
+  filter1: FilterItem
+  filter2: FilterItem
 }
 
 export interface SortConfig {
@@ -37,14 +40,19 @@ export interface Translations {
   filters?: {
     title?: string
     clear?: string
-    name?: string
-    author?: string
-    subject?: string
-    category?: string
-    namePlaceholder?: string
-    authorPlaceholder?: string
-    subjectPlaceholder?: string
-    categoryPlaceholder?: string
+    filter?: string
+    column?: string
+    value?: string
+    selectColumn?: string
+    valuePlaceholder?: string
+    columns?: {
+      name?: string
+      date?: string
+      author?: string
+      subject?: string
+      category?: string
+      comment?: string
+    }
   }
   detail?: {
     title?: string

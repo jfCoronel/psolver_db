@@ -16,14 +16,19 @@
   "filters": {
     "title": "Filters",
     "clear": "Clear filters",
-    "name": "Name",
-    "namePlaceholder": "Search by name...",
-    "author": "Author",
-    "authorPlaceholder": "Search by author...",
-    "subject": "Subject",
-    "subjectPlaceholder": "Search by subject...",
-    "category": "Category",
-    "categoryPlaceholder": "Search by category..."
+    "filter": "Filter",
+    "column": "Column",
+    "value": "Value",
+    "selectColumn": "Select column...",
+    "valuePlaceholder": "Search...",
+    "columns": {
+      "name": "Name",
+      "date": "Date",
+      "author": "Author",
+      "subject": "Subject",
+      "category": "Category",
+      "comment": "Comment"
+    }
   },
   "detail": {
     "title": "Problem Details",
