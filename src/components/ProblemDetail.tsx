@@ -107,7 +107,7 @@ const ProblemDetail = ({ problem }: ProblemDetailProps) => {
               </div>
             )}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               <div>
                 <span className="font-semibold text-slate-700 dark:text-slate-300 text-sm">
                   {t.subject || 'Materia'}:
@@ -123,6 +123,15 @@ const ProblemDetail = ({ problem }: ProblemDetailProps) => {
                 </span>
                 <p className="text-slate-900 dark:text-slate-100 mt-1">
                   {problem.category}
+                </p>
+              </div>
+
+              <div>
+                <span className="font-semibold text-slate-700 dark:text-slate-300 text-sm">
+                  {t.language || 'Idioma'}:
+                </span>
+                <p className="text-slate-900 dark:text-slate-100 mt-1">
+                  {problem.language}
                 </p>
               </div>
             </div>

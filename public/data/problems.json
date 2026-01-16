@@ -9,7 +9,8 @@
     "category": "Tutorial",
     "comment": "Ejemplo video tutorial pSolver",
     "description": "Este sencillo problema es el que se utiliza en el primer video de introducción. Realiza el cálculo de los lados de un triángulo rectángulo conociendo uno de los lados y el área",
-    "image": "https://lh3.googleusercontent.com/d/1k0MD4f8tytfYhCbqes0KzAT65HscqG4W?authuser=0"
+    "image": "https://lh3.googleusercontent.com/d/1k0MD4f8tytfYhCbqes0KzAT65HscqG4W?authuser=0",
+    "language": "Español"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "category": "Tutorial",
     "comment": "Ejemplo video tutorial pSolver",
     "description": "Este ejercicio es el que se desarrolla en el video sobre este tema. Se calcula usando una tabla la densidad del agua entre 10 y 90ºC, para posteriormente graficar el resultado.",
-    "image": ""
+    "image": "",
+    "language": "Español"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "category": "Tutorial",
     "comment": "Ejemplo video tutorial pSolver",
     "description": "Este problema es el utilizado en el video sobre problemas de convergencia. Se calcula la pérdida de presión en una tubería usando la expresión de Darcy-Weisbach y la correlación de Colebrook-White para la estimación del factor del fricción. Esta última expresión es implicita y genera en algunos casos problemas de convergencia.",
-    "image": "https://personal.us.es/jfc/CDP_IMG/EJEMPLOS/TUBERIA.png"
+    "image": "https://personal.us.es/jfc/CDP_IMG/EJEMPLOS/TUBERIA.png",
+    "language": "Español"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "category": "Tutorial",
     "comment": "Ejemplo de pSolver",
     "description": "Realmente este ejercicio incluye unicamente textos con ejemplo de uso de la notación Markdown, que es la que permite formatear el texto para añadir cabeceras, negrita, cursiva, etc.",
-    "image": ""
+    "image": "",
+    "language": "Español"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "category": "Problema parámetrico",
     "comment": "Problema de ciclo frigorífico con análisis de sensibilidad a la Tª de evaporación",
     "description": "Este problema calcula los parámetros básicos de un ciclo estándar de compresión de vapor utilizando como fluido R-134a, para posteriormente realizar y graficar un análisis de sensibilidad frente a la temperatura de evaporación.",
-    "image": "https://personal.us.es/jfc/CDP_IMG/EJEMPLOS/CICLO FRIGORIFICO ESTANDAR.svg"
+    "image": "https://personal.us.es/jfc/CDP_IMG/EJEMPLOS/CICLO FRIGORIFICO ESTANDAR.svg",
+    "language": "Español"
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "category": "Aplicación",
     "comment": "Calculo de coeficiente convectivo usando una correlación",
     "description": "Ejemplo de cálculo de un coeficiente convectivo usando una correlación. Correlación de convección libre placa plana horizontal, superficie superior de una placa fría o superficie inferior de una placa caliente.",
-    "image": ""
+    "image": "",
+    "language": "Español"
   },
   {
     "id": 7,
@@ -81,6 +87,124 @@
     "category": "Examen",
     "comment": "Problema de examen con proceso iterativo de resolución en tabla",
     "description": "Problema de examen de Transmisión de Calor de mecanismos combinados. El problema se resuelve combinándolo con la correlación de convección libre placa plana, se usa una tabla para dejar registro del proceso iterativo.",
-    "image": "https://personal.us.es/jfc/CDP_IMG/TC/MC%20EDIF%201%20Esq.png"
+    "image": "https://personal.us.es/jfc/CDP_IMG/TC/MC%20EDIF%201%20Esq.png",
+    "language": "Español"
+  },
+   {
+    "id": 8,
+    "problem_id": "fbe0edfa-ee7f-4b95-a098-da453eb3b681",
+    "name": "Ciclo del aire en refrigeración",
+    "date": "2024-01-11",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Climatización",
+    "category": "Aplicación",
+    "comment": "Resolución del ciclo del aire en refrigeración para climatización",
+    "description": "El siguiente problema resuelve el ciclo del aire en refrigeración para climatización. En el problema se han colocado todos los datos en incógnitas en la primera página, dejando las ecuaciones relegadas a la segunda página, de esta forma permite usar el problema como una aplicación genérica, solo es necesario modificar los datos (en azul) y recalcular.",
+    "image": "https://personal.us.es/jfc/CDP_IMG/ITE/DIBUJO CICLO AIRE REF.png",
+    "language": "Español"
+  },
+  {
+    "id": 9,
+    "problem_id": "0f1ee021-7605-4ef7-bb70-75e7bbfcdccf",
+    "name": "Ciclo del aire en calefacción",
+    "date": "2024-01-11",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Climatización",
+    "category": "Aplicación",
+    "comment": "Resolución del ciclo del aire en calefacción para climatización",
+    "description": "El siguiente problema resuelve el ciclo del aire en calefacción para climatización. En el problema se han colocado todos los datos en incógnitas en la primera página, dejando las ecuaciones relegadas a la segunda página, de esta forma permite usar el problema como una aplicación genérica, solo es necesario modificar los datos (en azul) y recalcular.",
+    "image": "https://personal.us.es/jfc/CDP_IMG/ITE/DIBUJO CICLO AIRE CAL.png",
+    "language": "Español"
+  },
+  {
+    "id": 10,
+    "problem_id": "2183c3a1-b476-45f4-b60c-759953b90fb4",
+    "name": "Movimiento uniformemente acelerado",
+    "date": "2024-01-11",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Física",
+    "category": "Tutorial",
+    "comment": "Resolución numérica de ecuaciones diferenciales en movimiento con aceleración constante",
+    "description": "El siguiente problema resuelve numéricamente las ecuaciones diferenciales que aparecen en el movimiento con aceleración constante. Para ello se utiliza la capacidad de que los datos en las tablas dependan de variables de la fila anterior.",
+    "image": "",
+    "language": "Español"
+  },
+  {
+    "id": 11,
+    "problem_id": "fb7a7f08-022e-48bb-bbee-2d6715c5e967",
+    "name": "Enfriamiento transitorio de un sistema de capacidad",
+    "date": "2024-01-11",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Transmisión de Calor",
+    "category": "Tutorial",
+    "comment": "Resolución numérica de ecuaciones diferenciales en enfriamiento transitorio de un sistema de capacidad",
+    "description": "El siguiente problema resuelve numericamente la ecuación diferencial del enfriemiento transitorio de un sistema de capacidad, también llamado sistema concentrado. Para ello se utiliza la capacidad de que los datos en las tablas dependan de variables de la fila anterior.",
+    "image": "",
+    "language": "Español"
+  },
+  {
+    "id": 12,
+    "problem_id": "ee68664c-38e2-43b8-9445-27a18a199f42",
+    "name": "Ejemplo con secciones",
+    "date": "2024-09-11",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Matemáticas",
+    "category": "Tutorial",
+    "comment": "Ejemplo sencillo del uso de las secciones",
+    "description": "Este problema es una ejemplo de problema con tres secciones. Podemos ver como se utilizan los mismos datos e incógnitas con valores diferentes en las tres secciones del problema.",
+    "image": "",
+    "language": "Español"
+  },
+  {
+    "id": 13,
+    "problem_id": "56e37c01-dc98-4d37-bbb8-eb9e43a24729",
+    "name": "Simple geometric problem",
+    "date": "2023-07-11",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Geometry",
+    "category": "Tutorial",
+    "comment": "Example tutorial video pSolver",
+    "description": "This simple problem calculates the sides of a right triangle by knowing one of the sides and the area of the triangle.",
+    "image": "https://lh3.googleusercontent.com/d/1k0MD4f8tytfYhCbqes0KzAT65HscqG4W?authuser=0",
+    "language": "English"
+  },
+  {
+    "id": 14,
+    "problem_id": "689835ef-31f5-41db-8134-f6d12f137517",
+    "name": "Fluid properties, tables and graphs",
+    "date": "2023-09-05",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Fluid Properties",
+    "category": "Tutorial",
+    "comment": "Example tutorial video pSolver",
+    "description": "This exercise is the one that is developed in the video (spanish) on this topic. The density of water is calculated using a table between 10 and 90ºC, and the result is then plotted.",
+    "image": "",
+    "language": "English"
+  },
+  {
+    "id": 15,
+    "problem_id": "5a90b353-deeb-4a9a-852b-28d7f00108e8",
+    "name": "Uniformly accelerated motion",
+    "date": "2023-09-05",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Physics",
+    "category": "Tutorial",
+    "comment": "Solving numerical differential equations in motion with constant acceleration",
+    "description": "The following problem solves numerically the differential equations that arise in motion with constant acceleration. This is done by using the ability of the data in the tables to depend on variables in the previous row.",
+    "image": "",
+    "language": "English"
+  },
+  {
+    "id": 16,
+    "problem_id": "c56715a8-bfa4-4407-af51-8ad355c5c474",
+    "name": "Example with sections",
+    "date": "2023-09-07",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Mathematics",
+    "category": "Tutorial",
+    "comment": "Solving numerical differential equations in motion with constant acceleration",
+    "description": "This problem is an example of a problem with three sections. We can see how the same data and unknowns with different values are used in the three sections of the problem.",
+    "image": "",
+    "language": "English"
   }
 ]

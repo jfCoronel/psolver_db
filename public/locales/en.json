@@ -42,6 +42,7 @@
     "comment": "Comment",
     "description": "Description",
     "image": "Image",
+    "language": "Language",
     "openProblem": "Open Problem"
   }
 }

@@ -42,6 +42,7 @@
     "comment": "Comentario",
     "description": "Descripción",
     "image": "Imagen",
+    "language": "Idioma",
     "openProblem": "Abrir Problema"
   }
 }

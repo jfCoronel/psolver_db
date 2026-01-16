@@ -9,6 +9,7 @@ export interface Problem {
   comment: string
   description: string
   image: string
+  language: string
 }
 
 export interface FilterItem {
@@ -69,6 +70,7 @@ export interface Translations {
     comment?: string
     description?: string
     image?: string
+    language?: string
     openProblem?: string
   }
 }

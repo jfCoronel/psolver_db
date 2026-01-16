@@ -15,7 +15,7 @@ const useStore = create<Store>((set) => ({
   },
   selectedProblem: null,
   appInfo: {
-    version: '0.1.0',
+    version: '0.1.1',
     year: 2026,
     copyright: '© JFC',
   },
