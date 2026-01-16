@@ -22,7 +22,8 @@ const ProblemsFilters = () => {
   // Columnas disponibles para filtrar (excluimos 'id' porque no es útil para filtrar)
   const availableColumns: (keyof Problem)[] = ['name', 'date', 'author', 'subject', 'category', 'comment']
 
-  const handleColumnChange = (filterKey: 'filter1' | 'filter2', column: string) => {
+  const handleColumnChange = (filterKey: 'filter1' | 'filter2', column: string | null) => {
+    if (!column) return
     setFilters({
       ...filters,
       [filterKey]: {
