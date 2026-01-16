@@ -32,12 +32,16 @@
   },
   "detail": {
     "title": "Problem Details",
-    "id": "ID",
+    "id": "n.",
+    "problem_id": "ID",
     "name": "Name",
     "date": "Date",
     "author": "Author",
     "subject": "Subject",
     "category": "Category",
-    "comment": "Comment"
+    "comment": "Comment",
+    "description": "Description",
+    "image": "Image",
+    "openProblem": "Open Problem"
   }
 }

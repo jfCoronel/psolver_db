@@ -1,11 +1,14 @@
 export interface Problem {
   id: string
+  problem_id: string
   name: string
   date: string
   author: string
   subject: string
   category: string
   comment: string
+  description: string
+  image: string
 }
 
 export interface FilterItem {
@@ -57,13 +60,23 @@ export interface Translations {
   detail?: {
     title?: string
     id?: string
+    problem_id?: string
     name?: string
     date?: string
     author?: string
     subject?: string
     category?: string
     comment?: string
+    description?: string
+    image?: string
+    openProblem?: string
   }
+}
+
+export interface AppInfo {
+  version: string
+  year: number
+  copyright: string
 }
 
 export interface StoreState {
@@ -73,6 +86,7 @@ export interface StoreState {
   filters: Filters
   sortConfig: SortConfig
   selectedProblem: Problem | null
+  appInfo: AppInfo
 }
 
 export interface StoreActions {

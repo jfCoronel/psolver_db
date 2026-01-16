@@ -1,74 +1,86 @@
 [
   {
     "id": 1,
-    "name": "Problema de Ecuaciones Lineales",
-    "date": "2025-01-15",
-    "author": "María García",
-    "subject": "Matemáticas",
-    "category": "Álgebra",
-    "comment": "Sistema de ecuaciones de 3x3"
+    "problem_id": "0ee2ab76-8692-4568-ace8-71ad83003ad0",
+    "name": "Problema geométrico muy sencillo",
+    "date": "2021-06-02",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Geometría",
+    "category": "Tutorial",
+    "comment": "Ejemplo video tutorial pSolver",
+    "description": "Este sencillo problema es el que se utiliza en el primer video de introducción. Realiza el cálculo de los lados de un triángulo rectángulo conociendo uno de los lados y el área",
+    "image": "https://lh3.googleusercontent.com/d/1k0MD4f8tytfYhCbqes0KzAT65HscqG4W?authuser=0"
   },
   {
     "id": 2,
-    "name": "Análisis de Movimiento Parabólico",
-    "date": "2025-02-20",
-    "author": "Juan Pérez",
-    "subject": "Física",
-    "category": "Cinemática",
-    "comment": "Incluye fricción del aire"
+    "problem_id": "a4f78415-c44b-4b56-b053-59eabe08c188",
+    "name": "Propiedades de fluidos, tablas y gráficas",
+    "date": "2021-06-01",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Propiedades Fluidos",
+    "category": "Tutorial",
+    "comment": "Ejemplo video tutorial pSolver",
+    "description": "Este ejercicio es el que se desarrolla en el video sobre este tema. Se calcula usando una tabla la densidad del agua entre 10 y 90ºC, para posteriormente graficar el resultado.",
+    "image": ""
   },
   {
     "id": 3,
-    "name": "Síntesis de Compuestos Orgánicos",
-    "date": "2025-03-10",
-    "author": "Ana Martínez",
-    "subject": "Química",
-    "category": "Química Orgánica",
-    "comment": "Reacción de sustitución"
+    "problem_id": "4b5ce6a8-c93e-48d5-9098-2ed8813ae577",
+    "name": "Pérdida de presión en una tubería",
+    "date": "2022-07-14",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Mecánica de Fluidos",
+    "category": "Tutorial",
+    "comment": "Ejemplo video tutorial pSolver",
+    "description": "Este problema es el utilizado en el video sobre problemas de convergencia. Se calcula la pérdida de presión en una tubería usando la expresión de Darcy-Weisbach y la correlación de Colebrook-White para la estimación del factor del fricción. Esta última expresión es implicita y genera en algunos casos problemas de convergencia.",
+    "image": "https://personal.us.es/jfc/CDP_IMG/EJEMPLOS/TUBERIA.png"
   },
   {
     "id": 4,
-    "name": "Derivadas Parciales",
-    "date": "2025-01-28",
-    "author": "Carlos López",
-    "subject": "Matemáticas",
-    "category": "Cálculo",
-    "comment": "Funciones de varias variables"
+    "problem_id": "4694a32c-d3f9-4be3-af4b-3c34ece9bb3a",
+    "name": "Uso de la notación Markdown",
+    "date": "2023-06-23",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Markdown",
+    "category": "Tutorial",
+    "comment": "Ejemplo de pSolver",
+    "description": "Realmente este ejercicio incluye unicamente textos con ejemplo de uso de la notación Markdown, que es la que permite formatear el texto para añadir cabeceras, negrita, cursiva, etc.",
+    "image": ""
   },
   {
     "id": 5,
-    "name": "Circuitos en Serie y Paralelo",
-    "date": "2025-02-05",
-    "author": "Laura Sánchez",
-    "subject": "Física",
-    "category": "Electricidad",
-    "comment": "Análisis con Ley de Ohm"
+    "problem_id": "ff96234d-bfda-45ff-8903-445b714a01df",
+    "name": "Ciclo frigorífico estándar de compresión de vapor",
+    "date": "2022-02-07",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Tecnología Frigorífica",
+    "category": "Problema parámetrico",
+    "comment": "Problema de ciclo frigorífico con análisis de sensibilidad a la Tª de evaporación",
+    "description": "Este problema calcula los parámetros básicos de un ciclo estándar de compresión de vapor utilizando como fluido R-134a, para posteriormente realizar y graficar un análisis de sensibilidad frente a la temperatura de evaporación.",
+    "image": "https://personal.us.es/jfc/CDP_IMG/EJEMPLOS/CICLO FRIGORIFICO ESTANDAR.svg"
   },
   {
     "id": 6,
-    "name": "Equilibrio Químico",
-    "date": "2025-03-22",
-    "author": "Miguel Torres",
-    "subject": "Química",
-    "category": "Termodinámica",
-    "comment": "Principio de Le Chatelier"
+    "problem_id": "9f04aee6-d712-4b83-b6b9-3aec9cdcbfb9",
+    "name": "Correlación de convección libre placa plana horizontal",
+    "date": "2022-09-26",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Transmisión de Calor",
+    "category": "Aplicación",
+    "comment": "Calculo de coeficiente convectivo usando una correlación",
+    "description": "Ejemplo de cálculo de un coeficiente convectivo usando una correlación. Correlación de convección libre placa plana horizontal, superficie superior de una placa fría o superficie inferior de una placa caliente.",
+    "image": ""
   },
   {
     "id": 7,
-    "name": "Integrales Dobles",
-    "date": "2025-02-14",
-    "author": "Isabel Ruiz",
-    "subject": "Matemáticas",
-    "category": "Cálculo",
-    "comment": "Cambio a coordenadas polares"
-  },
-  {
-    "id": 8,
-    "name": "Ondas Electromagnéticas",
-    "date": "2025-03-05",
-    "author": "Roberto Díaz",
-    "subject": "Física",
-    "category": "Electromagnetismo",
-    "comment": "Ecuaciones de Maxwell"
+    "problem_id": "85726c11-418d-40b5-82a4-14873a5b6659",
+    "name": "Ejemplo problema mecanismos combinados",
+    "date": "2022-09-20",
+    "author": "Juan F. Coronel Toro",
+    "subject": "Transmisión de Calor",
+    "category": "Examen",
+    "comment": "Problema de examen con proceso iterativo de resolución en tabla",
+    "description": "Problema de examen de Transmisión de Calor de mecanismos combinados. El problema se resuelve combinándolo con la correlación de convección libre placa plana, se usa una tabla para dejar registro del proceso iterativo.",
+    "image": "https://personal.us.es/jfc/CDP_IMG/TC/MC%20EDIF%201%20Esq.png"
   }
 ]

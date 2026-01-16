@@ -11,6 +11,7 @@ export function App() {
   const loadProblems = useStore((state) => state.loadProblems)
   const loadTranslations = useStore((state) => state.loadTranslations)
   const translations = useStore((state) => state.translations)
+  const appInfo = useStore((state) => state.appInfo)
 
   useEffect(() => {
     loadProblems()
@@ -36,6 +37,9 @@ export function App() {
           <ProblemsFilters />
           <ProblemsTable />
         </div>
+        <footer className="mt-8 py-4 text-center text-sm text-slate-500 dark:text-slate-400">
+          {appInfo.copyright} {appInfo.year} · v{appInfo.version}
+        </footer>
       </div>
     </ThemeProvider>
   )

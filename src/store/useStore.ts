@@ -14,6 +14,11 @@ const useStore = create<Store>((set) => ({
     direction: 'asc',
   },
   selectedProblem: null,
+  appInfo: {
+    version: '0.1.0',
+    year: 2026,
+    copyright: '© JFC',
+  },
 
   setProblems: (problems: Problem[]) => set({ problems }),
 

@@ -111,4 +111,4 @@ Este proyecto es de código abierto.
 
 ## Autor
 
-José Francisco Coronel
+Juan Francisco Coronel
