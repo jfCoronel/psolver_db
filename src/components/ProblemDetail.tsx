@@ -159,7 +159,7 @@ const ProblemDetail = ({ problem }: ProblemDetailProps) => {
           <Button
             variant="default"
             size="sm"
-            onClick={() => window.open(`https://app.psolver.org/app/?id=${problem.problem_id}`, '_blank')}
+            onClick={() => window.open(`https://psolver.jfcoronel.org/?id=${problem.problem_id}`, '_blank')}
           >
             <ExternalLink className="h-4 w-4 mr-2" />
             {t.openProblem || 'Abrir Problema'}
